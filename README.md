@@ -13,19 +13,19 @@ for parts of the code and thanks to [Qard/astring-jsx](https://github.com/Qard/a
 Example with astring default generator:
 ```jsx
 import astringReactCreateElement from 'astring-react-create-element';
-import { GENERATOR } from 'astring';
+import * as astring from 'astring';
 
 const formattedCode = astring.generate(ast, {
-    generator: astringReactCreateElement(GENERATOR),
+    generator: astringReactCreateElement(astring.GENERATOR),
 });
 ```
 
 Example with custom generator:
 ```jsx
 import astringReactCreateElement from 'astring-react-create-element';
-import { GENERATOR } from 'astring';
+import * as astring from 'astring';
 
-const customGenerator = Object.assign({}, astringReactCreateElement(GENERATOR), {
+const customGenerator = Object.assign({}, astringReactCreateElement(astring.GENERATOR), {
     JSXFragment: (node, state) => {
         customGenerator['JSXElement'](node, state);
     },
