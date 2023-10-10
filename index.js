@@ -1,8 +1,6 @@
 
 /**
  * Add JSX generators to astring default generator, or your custom generator
- * @param {import('astring').GENERATOR} generator 
- * @returns {import('astring').GENERATOR}
  * @example
  * import astringReactCreateElement from './astring-react-jsx';
  * import { GENERATOR } from 'astring';
