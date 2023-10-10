@@ -12,7 +12,7 @@ for parts of the code and thanks to [Qard/astring-jsx](https://github.com/Qard/a
 
 Example with astring default generator:
 ```jsx
-import astringReactCreateElement from './astring-react-jsx';
+import astringReactCreateElement from 'astring-react-create-element';
 import { GENERATOR } from 'astring';
 
 const formattedCode = astring.generate(ast, {
@@ -22,7 +22,7 @@ const formattedCode = astring.generate(ast, {
 
 Example with custom generator:
 ```jsx
-import astringReactCreateElement from './astring-react-jsx';
+import astringReactCreateElement from 'astring-react-create-element';
 import { GENERATOR } from 'astring';
 
 const customGenerator = Object.assign({}, astringReactCreateElement(GENERATOR), {

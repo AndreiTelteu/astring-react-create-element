@@ -2,7 +2,7 @@
 /**
  * Add JSX generators to astring default generator, or your custom generator
  * @example
- * import astringReactCreateElement from './astring-react-jsx';
+ * import astringReactCreateElement from 'astring-react-create-element';
  * import { GENERATOR } from 'astring';
  * 
  * const formattedCode = astring.generate(ast, {

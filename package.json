@@ -1,6 +1,6 @@
 {
   "name": "astring-react-create-element",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Convert React JSX AST into React.createElement calls.",
   "type":"module",
   "main": "index.js",
