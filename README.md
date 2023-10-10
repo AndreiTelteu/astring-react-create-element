@@ -8,6 +8,14 @@ for parts of the code and thanks to [Qard/astring-jsx](https://github.com/Qard/a
 1. Why use this plugin instead of astring-jsx or other options ?
 <br />This plugins generates React.createElement that are compatible with React-Native.
 
+## Install
+
+```
+npm install astring-react-create-element
+# or yarn
+yarn add astring-react-create-element
+```
+
 ## Usage
 
 Example with astring default generator:
