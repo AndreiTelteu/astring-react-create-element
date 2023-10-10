@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrei Telteu <andrei@telteu.ro>",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/AndreiTelteu/astring-react-create-element#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiTelteu/astring-react-create-element.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreiTelteu/astring-react-create-element/issues"
+  }
 }
