@@ -1,0 +1,11 @@
+{
+  "name": "astring-react-create-element",
+  "version": "0.0.1",
+  "description": "Convert React JSX AST into React.createElement calls.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrei Telteu <andrei@telteu.ro>",
+  "license": "MIT"
+}
